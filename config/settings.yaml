@@ -1,0 +1,13 @@
+database:
+  path: "data/monitor.db"
+
+browser:
+  headless: true
+  timeout: 30000
+
+monitoring:
+  interval_seconds: 60
+  
+telegram:
+  bot_token: ""
+  chat_id: ""
