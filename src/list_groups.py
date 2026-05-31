@@ -11,8 +11,8 @@ async def list_groups():
         return
 
     async with async_playwright() as p:
-        # browser = await p.chromium.launch(headless=True)
-        browser = await p.chromium.launch()
+        browser = await p.chromium.launch(headless=True)
+        # browser = await p.chromium.launch()
         context = await browser.new_context()
         
         # Load cookies
@@ -46,6 +46,8 @@ async def list_groups():
             print(f"Nama: {name}, URL: {url}")
             
         await browser.close()
+
+        return unique_groups
 
 if __name__ == "__main__":
     asyncio.run(list_groups())

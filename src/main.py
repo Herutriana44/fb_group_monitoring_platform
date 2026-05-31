@@ -33,7 +33,7 @@ async def main():
         
         # Interval waktu cek (dalam detik). Contoh: 300 detik = 5 menit sekali
         # Sesuaikan dengan kebutuhan agar tidak terkena checkpoint/banned Facebook
-        CHECK_INTERVAL = 300 
+        CHECK_INTERVAL = 10
 
         try:
             while True:
