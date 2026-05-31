@@ -3,7 +3,7 @@ from playwright.async_api import async_playwright
 import json
 import os
 
-SESSION_FILE = "data/cookies.json"
+SESSION_FILE = "../auth.json"
 
 async def save_cookies(context):
     cookies = await context.cookies()

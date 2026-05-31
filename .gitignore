@@ -1,0 +1,46 @@
+# File konfigurasi & data sensitif (Dari kode Anda)
+auth.json
+data/cookies.json
+cookies.json
+venv
+
+# --- Tambahan Standar Proyek Python ---
+
+# Virtual Environments alternatif jika nanti berubah nama
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Bytecompile / Cache (Membuat folder bersih dari file .pyc)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File Environment / Kunci Rahasia
+.env
+.secret
+*.local
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Testing & Cakupan Kode (jika pakai pytest / coverage)
+.pytest_cache/
+.htmlcov/
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# Log files (Sering muncul saat aplikasi running)
+*.log
+log/
+
+# Sistem Operasi (File sampah otomatis dari OS)
+.DS_Store
+Thumbs.db
