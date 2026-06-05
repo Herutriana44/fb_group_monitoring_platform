@@ -3,7 +3,7 @@ Programming Language:
 Python
 
 Automation Tools:
-Playwright / Selenium
+Playwright
 
 Async Processing:
 Asyncio

@@ -1,5 +1,4 @@
-playwright
-asyncio
-aiohttp
-pyyaml
-aiosqlite
+playwright==1.44.0
+aiohttp==3.9.5
+aiosqlite==0.20.0
+pyyaml==6.0.1

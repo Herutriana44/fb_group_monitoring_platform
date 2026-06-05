@@ -7,7 +7,28 @@ browser:
 
 monitoring:
   interval_seconds: 60
-  
+  group_ids:
+    # Isi dengan group ID yang ingin dipantau, contoh:
+    # - "27422186357398808"
+    # - "nama_group_slug"
+  keywords:
+    - "lelang"
+    - "jual"
+    - "auction"
+    - "bid"
+  blacklist_keywords:
+    # Keyword yang menyebabkan post diabaikan
+    # - "spam"
+
 telegram:
-  bot_token: ""
-  chat_id: ""
+  bot_token: ""   # Isi dengan token dari @BotFather
+  chat_id: ""     # Isi dengan Chat ID tujuan
+
+webhook:
+  url: ""         # Opsional: URL webhook eksternal
+  secret: ""      # Opsional: secret header untuk validasi
+
+autocomment:
+  enabled: false
+  dry_run: true   # true = tidak benar-benar kirim komentar (testing)
+  template: "Saya berminat! 🙋"

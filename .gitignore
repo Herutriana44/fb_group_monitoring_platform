@@ -1,6 +1,9 @@
-# File konfigurasi & data sensitif (Dari kode Anda)
+# File konfigurasi & data sensitif
 auth.json
 data/cookies.json
+data/session.json
+data/*.db
+data/logs/
 cookies.json
 venv
 
